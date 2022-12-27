@@ -1,0 +1,106 @@
+// var 바 키워드 ES5        변수값이 변경하는 자료형변수
+
+// let 렛 키워드 ES6        변수값이 변경하는 자료형변수
+// const 콘스트 키워드 ES6  변수값이 변경 안하는 상수형변수
+
+// 반복문
+// while(){}
+// for(){}    
+// forEach(); // 이크마 스크립트 5 => ECMA Script 5 => ES5
+// map();    // 이크마 스크립트 6 => ECMA Script 6 => ES6
+// $.each();    // 제이쿼리
+
+// 화일 반복문 조건이 만족(참 true)하면 계속 실행
+// 조건이 false인 경우 종료
+// 1~100까지 1씩 증가하고 출력 프로그래밍
+// 숫자가 증가할려면 반드시 초기값이 있어야한다.
+// let cnt=0; 
+// while(cnt<100){
+//     cnt++;  //cnt=cnt+1  1씩증가
+//     console.log( cnt ); // 1 ~ 100
+// }
+// cnt=0; 
+// while(cnt<100){
+//     cnt+=2;  //cnt=cnt+2  2씩증가  cnt+=2   cnt+=5 5씩
+//     console.log( cnt ); // 1 ~ 100
+// }
+// cnt=0; 
+// while(cnt<100){
+//     cnt+=5;  //cnt=cnt+2  2씩증가  cnt+=2   cnt+=5 5씩
+//     console.log( cnt ); // 1 ~ 100
+// }
+
+// cnt=100; 
+// while(cnt>1){
+//     cnt--;  //cnt=cnt-1  1씩감소  cnt--  cnt-=1 
+//     console.log( cnt ); // 1 ~ 100
+// }
+
+// cnt=100; 
+// while(cnt>2){
+//     cnt-=2;  //cnt=cnt-2  2씩증가  cnt-=2 
+//     console.log( cnt ); // 1 ~ 100
+// }
+
+// for(let cnt=1; cnt<=100; cnt++){
+//     console.log( cnt ); 
+// }
+
+// for(let cnt=1; cnt<=100; cnt+=2){
+//     console.log( cnt ); 
+// }
+
+// for(let cnt=5; cnt<=100; cnt+=5){
+//     console.log( cnt ); 
+// }
+
+// for(let cnt=100; cnt>=1; cnt--){
+//     console.log( cnt ); 
+// }
+
+// for(let cnt=100; cnt>=1; cnt-=2){
+//     console.log( cnt ); 
+// }
+
+// for(let i=0; i<result.특가혜택.length; i++){
+//     console.log( result.특가혜택[i].번호, result.특가혜택[i].제목, result.특가혜택[i].이미지, result.특가혜택[i].소개 );
+// }
+
+// const {특가혜택} = result; //비구조화 == 구조 분할 할당
+// for(let i=0; i<특가혜택.length; i++){
+//     console.log( 특가혜택[i].번호, 특가혜택[i].제목, 특가혜택[i].이미지, 특가혜택[i].소개 );
+// }
+
+// const {번호,제목,이미지,소개} = result.특가혜택; //비구조화 == 구조 분할 할당
+// for(let i=0; i<result.특가혜택.length; i++){
+//     console.log( 번호[i], 제목[i], 이미지[i], 소개 );
+// }
+
+
+// 객체 Object
+// result.특가혜택.forEach(function(item, index){
+//     console.log( index, item );
+// });
+
+//const {특가혜택} = result; 
+// 특가혜택.forEach(function(item, index){
+//     const {번호,이미지,소개} = item;
+//     console.log( 번호, 이미지, 소개 );
+// });
+
+// 특가혜택.map(function(item, idx, array){
+//     const {번호,제목, 이미지,소개} = item;
+//     console.log( 번호, 제목, 이미지, 소개 );
+// });
+
+//제이쿼리 전용
+// console.log('제이쿼리 $.each() //////////////////////////////////');
+// $.each(특가혜택, function(idx, item){
+//     const {번호,제목, 이미지,소개} = item;
+//     console.log(idx, 번호, 제목, 이미지, 소개 );
+// })
+
+// console.log( result.특가혜택[0].번호, result.특가혜택[0].이미지  );
+// console.log( result.특가혜택[1].번호, result.특가혜택[1].이미지  );
+// console.log( result.특가혜택[2].번호, result.특가혜택[2].이미지  );
+// console.log( result.특가혜택[3].번호, result.특가혜택[3].이미지  );

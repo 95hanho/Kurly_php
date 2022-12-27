@@ -1,0 +1,5 @@
+moonjong.dothome.co.kr/kurly_1024_5/ 
+
+localhost/kurly_1024_5/ 
+127.0.0.1/kurly_1024_5/
+192.168.10.30/kurly_1024_5/

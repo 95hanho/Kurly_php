@@ -1,0 +1,45 @@
+@import url(../../../../css/fonts.css);
+@import url(../../../../css/reset.css);
+@import url(../../../../css/modal.css);
+@import url(../../../../css/header.css);
+@import url(../../../../css/footer.css);
+@import url(../../../../css/quick_menu.css);
+@import url(../../../../css/go_top.css);
+#wrap {
+  width: 100%;
+}
+#wrap #main.main4 {
+  width: 100%;
+}
+#wrap #main.main4 #purpleWeek {
+  width: 100%;
+}
+#wrap #main.main4 #purpleWeek .container {
+  width: 100%;
+  max-width: 1050px;
+  margin: 0 auto;
+}
+#wrap #main.main4 #purpleWeek .container .title {
+  width: 100%;
+}
+#wrap #main.main4 #purpleWeek .container .title h2 {
+  font-size: 30px;
+  text-align: center;
+}
+#wrap #main.main4 #purpleWeek .container .content {
+  width: 100%;
+}
+#wrap #main.main4 #purpleWeek .container .content ul {
+  width: 100%;
+}
+#wrap #main.main4 #purpleWeek .container .content ul li {
+  width: 100%;
+  padding: 0 0 10px 0;
+}
+#wrap #main.main4 #purpleWeek .container .content ul li a {
+  width: 100%;
+  display: block;
+}
+#wrap #main.main4 #purpleWeek .container .content ul li a img {
+  width: 100%;
+}

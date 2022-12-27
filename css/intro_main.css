@@ -1,0 +1,367 @@
+#wrap {
+  width: 100%;
+}
+#wrap #main {
+  width: 100%;
+  z-index: 2;
+  position: relative;
+  padding-bottom: 80px;
+}
+#wrap #main #section1 {
+  width: 100%;
+  padding: 0 0 40px 0;
+}
+#wrap #main #section1 .slide-container {
+  width: 100%;
+  position: relative;
+}
+#wrap #main #section1 .slide-container .slide-view {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+}
+#wrap #main #section1 .slide-container .slide-view .slide-wrap {
+  width: 1300%;
+  display: flex;
+  margin-left: -100%;
+  position: relative;
+  left: 0%;
+}
+#wrap #main #section1 .slide-container .slide-view .slide-wrap .slide {
+  width: 100%;
+}
+#wrap #main #section1 .slide-container .slide-view .slide-wrap .slide img {
+  width: 100%;
+}
+#wrap #main #section1 .slide-container .prev-btn {
+  width: 52px;
+  height: 52px;
+  position: absolute;
+  top: 50%;
+  left: 17%;
+  z-index: 2;
+  margin-top: -26px;
+  transform: rotate(180deg);
+}
+#wrap #main #section1 .slide-container .prev-btn img {
+  width: 100%;
+}
+#wrap #main #section1 .slide-container .next-btn {
+  width: 52px;
+  height: 52px;
+  position: absolute;
+  top: 50%;
+  right: 17%;
+  z-index: 2;
+  margin-top: -26px;
+}
+#wrap #main #section1 .slide-container .next-btn img {
+  width: 100%;
+}
+#wrap #main #section1 .slide-container .page-number {
+  position: absolute;
+  bottom: 20px;
+  right: 22%;
+  z-index: 2;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 5px 12px 7px 12px;
+  font-size: 14px;
+  border-radius: 13px;
+}
+#wrap #main .section-public {
+  width: 100%;
+  padding: 40px 0;
+}
+#wrap #main .section-public .container {
+  width: 1064px;
+  margin: 0 auto;
+}
+#wrap #main .section-public .container > .gap .title {
+  text-align: center;
+  padding: 0 0 30px 0;
+}
+#wrap #main .section-public .container > .gap .title h2 {
+  font-size: 28px;
+  color: rgb(51, 51, 51);
+  font-weight: 500;
+}
+#wrap #main .section-public .container > .gap .content {
+  width: 100%;
+}
+#wrap #main .section-public .container > .gap .content .slide-container {
+  width: 100%;
+  position: relative;
+}
+#wrap #main .section-public .container > .gap .content .slide-container .slide-view {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+#wrap #main .section-public .container > .gap .content .slide-container .slide-view .slide-wrap {
+  position: relative;
+  width: 5320px;
+  display: flex;
+}
+#wrap #main .section-public .container > .gap .content .slide-container .slide-view .slide-wrap .slide {
+  width: 266px;
+}
+#wrap #main .section-public .container > .gap .content .slide-container .slide-view .slide-wrap .slide .gap {
+  margin: 0 7px;
+}
+#wrap #main .section-public .container > .gap .content .slide-container .slide-view .slide-wrap .slide .gap .img-box {
+  width: 100%;
+  position: relative;
+}
+#wrap #main .section-public .container > .gap .content .slide-container .slide-view .slide-wrap .slide .gap .img-box > img {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+#wrap #main .section-public .container > .gap .content .slide-container .slide-view .slide-wrap .slide .gap .img-box span {
+  z-index: 2;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  width: 45px;
+  height: 45px;
+}
+#wrap #main .section-public .container > .gap .content .slide-container .slide-view .slide-wrap .slide .gap .img-box span img {
+  width: 100%;
+}
+#wrap #main .section-public .container > .gap .content .slide-container .slide-view .slide-wrap .slide .gap .caption-box {
+  padding: 14px 0 0 0;
+}
+#wrap #main .section-public .container > .gap .content .slide-container .slide-view .slide-wrap .slide .gap .caption-box h3 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #333;
+  line-height: 130%;
+}
+#wrap #main .section-public .container > .gap .content .slide-container .slide-view .slide-wrap .slide .gap .caption-box h4 {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 10px 0;
+}
+#wrap #main .section-public .container > .gap .content .slide-container .slide-view .slide-wrap .slide .gap .caption-box h4 strong {
+  color: rgb(250, 98, 47);
+  margin: 0 10px 0 0;
+}
+#wrap #main .section-public .container > .gap .content .slide-container .slide-view .slide-wrap .slide .gap .caption-box h4 em {
+  color: rgb(51, 51, 51);
+}
+#wrap #main .section-public .container > .gap .content .slide-container .slide-view .slide-wrap .slide .gap .caption-box h5 {
+  font-size: 14px;
+}
+#wrap #main .section-public .container > .gap .content .slide-container .slide-view .slide-wrap .slide .gap .caption-box h5 s {
+  color: rgb(181, 181, 181);
+}
+#wrap #main .section-public .container > .gap .content .slide-container .arrow-btn {
+  position: absolute;
+  top: 33%;
+  width: 60px;
+  height: 60px;
+  z-index: 2;
+}
+#wrap #main .section-public .container > .gap .content .slide-container .arrow-btn.prev-btn {
+  left: -30px;
+}
+#wrap #main .section-public .container > .gap .content .slide-container .arrow-btn.next-btn {
+  right: -30px;
+  transform: rotate(180deg);
+}
+#wrap #main #section3 {
+  width: 100%;
+  padding: 40px 0;
+}
+#wrap #main #section3 .container {
+  width: 1064px;
+  margin: 0 auto;
+}
+#wrap #main #section3 .container .gap {
+  margin: 0 7px;
+}
+#wrap #main #section3 .container .gap .content {
+  width: 100%;
+}
+#wrap #main #section3 .container .gap .content a {
+  width: 100%;
+  display: block;
+}
+#wrap #main #section3 .container .gap .content a img {
+  width: 100%;
+}
+#wrap #main #section4 {
+  padding: 40px 0;
+}
+#wrap #main #section4 .container {
+  width: 1064px;
+  margin: 0 auto;
+}
+#wrap #main #section4 .container .gap {
+  width: 100%;
+  display: flex;
+}
+#wrap #main #section4 .container .gap .left {
+  width: 356px;
+  margin: 0 7px;
+}
+#wrap #main #section4 .container .gap .left ul {
+  width: 100%;
+}
+#wrap #main #section4 .container .gap .left ul li {
+  width: 100%;
+}
+#wrap #main #section4 .container .gap .left ul li:nth-child(3) {
+  display: flex;
+  padding: 60px 0;
+  height: 80px;
+  align-items: center;
+}
+#wrap #main #section4 .container .gap .left ul li h2 {
+  font-size: 28px;
+  color: #222;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+#wrap #main #section4 .container .gap .left ul li h3 {
+  font-size: 16px;
+  color: #999;
+}
+#wrap #main #section4 .container .gap .left ul li .clock-box {
+  width: 28px;
+  height: 28px;
+}
+#wrap #main #section4 .container .gap .left ul li .clock-box .circle {
+  width: 100%;
+  height: 100%;
+  background: rgb(189, 118, 255);
+  border-radius: 50%;
+  position: relative;
+}
+#wrap #main #section4 .container .gap .left ul li .clock-box .circle i {
+  width: 2px;
+  height: 25%;
+  margin-left: -1px;
+  border-radius: 1px;
+  background: #fff;
+  position: absolute;
+  bottom: 50%;
+  left: 50%;
+  transform-origin: bottom;
+}
+#wrap #main #section4 .container .gap .left ul li .clock-box .circle i.minute {
+  height: 23%;
+}
+#wrap #main #section4 .container .gap .left ul li .clock-box .circle i.second {
+  transform: rotate(90deg);
+}
+#wrap #main #section4 .container .gap .left ul li .clock-box .circle i.second.on {
+  -webkit-animation: seconds 2s infinite;
+          animation: seconds 2s infinite;
+}
+@-webkit-keyframes seconds {
+  0% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(450deg);
+  }
+  100% {
+    transform: rotate(450deg);
+  }
+}
+@keyframes seconds {
+  0% {
+    transform: rotate(90deg);
+  }
+  50% {
+    transform: rotate(450deg);
+  }
+  100% {
+    transform: rotate(450deg);
+  }
+}
+#wrap #main #section4 .container .gap .left ul li .digit-box {
+  margin: 0 0 0 10px;
+}
+#wrap #main #section4 .container .gap .left ul li .digit-box span {
+  font-size: 32px;
+  font-weight: 700;
+  color: #222;
+}
+#wrap #main #section4 .container .gap .left ul li .digit-box i {
+  font-size: 32px;
+  font-weight: 500;
+  color: #222;
+}
+#wrap #main #section4 .container .gap .left ul li h4 {
+  font-size: 14px;
+  color: #bbb;
+}
+#wrap #main #section4 .container .gap .right {
+  width: 694px;
+  margin: 0 7px;
+}
+#wrap #main #section4 .container .gap .right .img-box {
+  position: relative;
+}
+#wrap #main #section4 .container .gap .right .img-box img {
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+#wrap #main #section4 .container .gap .right .img-box span {
+  z-index: 2;
+  position: absolute;
+  background: #bd76ff;
+  color: #fff;
+  top: 0;
+  left: 0;
+  padding: 8px 5px;
+  font-size: 14px;
+}
+#wrap #main #section4 .container .gap .right .img-box a {
+  z-index: 2;
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  display: block;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+#wrap #main #section4 .container .gap .right .img-box a img {
+  width: 100%;
+}
+#wrap #main #section4 .container .gap .right .caption {
+  padding: 10px 0 0 0;
+  line-height: 180%;
+}
+#wrap #main #section4 .container .gap .right .caption h5 {
+  font-size: 14px;
+  color: #999;
+}
+#wrap #main #section4 .container .gap .right .caption h4 {
+  font-size: 16px;
+  color: #333;
+}
+#wrap #main #section4 .container .gap .right .caption h3 {
+  font-size: 20px;
+  color: #333;
+  font-weight: 600;
+}
+#wrap #main #section4 .container .gap .right .caption h3 strong {
+  color: #fa622f;
+  margin: 0 10px 0 0;
+}
+#wrap #main #section4 .container .gap .right .caption h3 s {
+  color: rgb(181, 181, 181);
+  margin-left: 6px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration: line-through;
+}

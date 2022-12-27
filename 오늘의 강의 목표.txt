@@ -1,0 +1,70 @@
+제19강
+
+닷홈 웹호스팅
+moonjong.dothome.co.kr/kurly_1019/
+
+
+
+공통 HTML, CSS, SCSS, IMG, 자바스크립&제이쿼리
+
+1. 인트로페이지
+index.php
+1. 모달영역.php
+2. 헤더영역.php
+3. 인트로 메인.php
+4. 푸터영역.php
+5. 퀵메뉴영역.php
+6. 고탑메뉴영역.php
+
+인트로 메인페이지
+moonjong.dothome.co.kr/kurly_1019/
+
+
+
+서브페이지
+메인1
+./sub_page/main/main1/
+moonjong.dothome.co.kr/kurly_1019/sub_page/main/main1/
+
+
+2. 스타일 분리 scss => css
+1. 모달영역.css
+2. 헤더영역.css
+3. 인트로 메인.css
+4. 푸터영역.css
+5. 퀵메뉴영역.css
+6. 고탑메뉴영역.css
+
+
+
+
+3. IMG 경로를 변수를 사용하여 루트 서브 어느위치든 상대경로로 연결하기
+./
+../
+../../
+../../../
+../../../../
+
+루트영역위치와
+서브페이지영역위치에 따라서 변수의 경로가 변경되도록한다.
+
+변수관리는
+_common.php
+
+index.php
+맨위 상단에서 변수관리파일을 가져오기 _common.php
+
+
+4. JS & jQuery 
+연결
+상대경로
+
+분리작업
+1. 모달영역.js
+2. 헤더영역.js
+3. 인트로 메인.js
+4. 푸터영역.js
+5. 퀵메뉴영역.js
+6. 고탑메뉴영역.js
+
+

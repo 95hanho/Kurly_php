@@ -1,0 +1,358 @@
+@import url(../../../../css/fonts.css);
+@import url(../../../../css/reset.css);
+@import url(../../../../css/modal.css);
+@import url(../../../../css/header.css);
+@import url(../../../../css/footer.css);
+@import url(../../../../css/quick_menu.css);
+@import url(../../../../css/go_top.css);
+main #formSection {
+  z-index: 1;
+  position: relative;
+  width: 100%;
+}
+main #formSection .container {
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+}
+main #formSection .container .content {
+  width: 100%;
+}
+main #formSection .container .content h2 {
+  text-align: center;
+  font-size: 28px;
+  color: #222;
+  padding: 60px 0 30px 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+main #formSection .container .content .sub-title {
+  width: 100%;
+  text-align: right;
+  border-bottom: 1px solid #000;
+  padding: 0 0 10px 0;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+main #formSection .container .content .sub-title span {
+  font-size: 11px;
+}
+main #formSection .container .content .sub-title span i {
+  color: #ee6a7b;
+}
+main #formSection .container .content #memberForm {
+  width: 100%;
+}
+main #formSection .container .content #memberForm > ul {
+  width: 100%;
+}
+main #formSection .container .content #memberForm > ul > li {
+  width: 100%;
+  padding: 10px 20px;
+  display: flex;
+}
+main #formSection .container .content #memberForm > ul > li .left-box {
+  width: 139px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+main #formSection .container .content #memberForm > ul > li .left-box span {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+main #formSection .container .content #memberForm > ul > li .left-box span i {
+  color: #ee6a7b;
+  display: inline-block;
+  margin: -9px 0 0 1px;
+}
+main #formSection .container .content #memberForm > ul > li .right-box {
+  width: 461px;
+  padding: 0 130px 0 0;
+  position: relative;
+}
+main #formSection .container .content #memberForm > ul > li .right-box input {
+  width: 100%;
+  height: 48px;
+  border: 1px solid #ccc;
+  padding: 0 15px;
+  font-size: 16px;
+  color: #333;
+  border-radius: 3px;
+  background: transparent;
+  transition: all 0.6s;
+  outline-offset: -1px;
+  outline: 1px solid transparent;
+}
+main #formSection .container .content #memberForm > ul > li .right-box input::-moz-placeholder {
+  font-size: 16px;
+  color: #aaa;
+  font-weight: 200;
+}
+main #formSection .container .content #memberForm > ul > li .right-box input:-ms-input-placeholder {
+  font-size: 16px;
+  color: #aaa;
+  font-weight: 200;
+}
+main #formSection .container .content #memberForm > ul > li .right-box input::placeholder {
+  font-size: 16px;
+  color: #aaa;
+  font-weight: 200;
+}
+main #formSection .container .content #memberForm > ul > li .right-box input:focus {
+  outline: 1px solid #000;
+}
+main #formSection .container .content #memberForm > ul > li .right-box input#address1.addr {
+  display: none;
+}
+main #formSection .container .content #memberForm > ul > li .right-box input#address2 {
+  margin: 10px 0 0 0;
+}
+main #formSection .container .content #memberForm > ul > li .right-box input#address2.addr {
+  display: none;
+}
+main #formSection .container .content #memberForm > ul > li .right-box p {
+  margin: -5px 0 0 0;
+  display: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  font-size: 12px;
+  color: #666;
+  line-height: 130%;
+  padding: 15px 0 0 0;
+}
+main #formSection .container .content #memberForm > ul > li .right-box p.error {
+  color: rgb(240, 63, 64);
+  display: block;
+}
+main #formSection .container .content #memberForm > ul > li .right-box p.addr-p {
+  font-size: 12px;
+  display: block;
+}
+main #formSection .container .content #memberForm > ul > li .right-box p.addr-p.star {
+  color: #5f0080;
+  font-weight: 600;
+  font-size: 12px;
+  display: block;
+}
+main #formSection .container .content #memberForm > ul > li .right-box .right-btn {
+  position: absolute;
+  top: 1px;
+  right: 0;
+  width: 120px;
+  height: 46px;
+  border: 1px solid #5f0080;
+  color: #5f0080;
+  font-size: 14px;
+  border-radius: 3px;
+  cursor: pointer;
+  background: #fff;
+}
+main #formSection .container .content #memberForm > ul > li .right-box .right-btn.off {
+  border: 1px solid #ccc;
+  color: #ccc;
+  cursor: default;
+}
+main #formSection .container .content #memberForm > ul > li .right-box .right-btn.addr {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 48px;
+}
+main #formSection .container .content #memberForm > ul > li .right-box .right-btn i {
+  margin: -3px 5px 0 0;
+}
+main #formSection .container .content #memberForm > ul > li .right-box .right-btn .hp2-btn {
+  top: 59px;
+  display: none;
+}
+main #formSection .container .content #memberForm > ul > li .right-box .right-btn .hp2-btn.on {
+  display: block;
+}
+main #formSection .container .content #memberForm > ul > li .right-box #hp2 {
+  margin: 10px 0 0 0;
+  display: none;
+}
+main #formSection .container .content #memberForm > ul > li .right-box #hp2.on {
+  display: block;
+}
+main #formSection .container .content #memberForm > ul > li .right-box #countTimer {
+  position: absolute;
+  bottom: 15px;
+  right: 150px;
+  z-index: 2;
+  display: none;
+}
+main #formSection .container .content #memberForm > ul > li .right-box #countTimer.on {
+  display: block;
+}
+main #formSection .container .content #memberForm > ul > li .right-box #countTimer span {
+  color: #bb3333;
+  font-size: 14px;
+  font-weight: 600;
+}
+main #formSection .container .content #memberForm > ul > li .right-box.radio-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 48px;
+}
+main #formSection .container .content #memberForm > ul > li .right-box.radio-box label {
+  font-size: 15px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+main #formSection .container .content #memberForm > ul > li .right-box.radio-box label input[type=radio] {
+  width: 23px;
+  height: 23px;
+  margin: 0 5px 0 0;
+  border: 1px solid #999;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border-radius: 50%;
+  padding: 0;
+  transition: all 0s;
+}
+main #formSection .container .content #memberForm > ul > li .right-box.radio-box label input[type=radio]:checked {
+  border: 6px solid #5f0080;
+}
+main #formSection .container .content #memberForm > ul > li .right-box .birth-box {
+  width: 100%;
+  height: 48px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+main #formSection .container .content #memberForm > ul > li .right-box .birth-box ul {
+  text-align: center;
+  display: flex;
+  padding: 0 10px;
+}
+main #formSection .container .content #memberForm > ul > li .right-box .birth-box ul li:nth-child(odd) {
+  width: 30%;
+}
+main #formSection .container .content #memberForm > ul > li .right-box .birth-box ul li:nth-child(even) {
+  width: 5%;
+}
+main #formSection .container .content #memberForm > ul > li .right-box .birth-box ul li input[type=text] {
+  border: 0;
+  transition: none;
+  text-align: center;
+}
+main #formSection .container .content #memberForm > ul > li .right-box .birth-box ul li input[type=text]:focus {
+  outline: 0;
+}
+main #formSection .container .content #memberForm > ul > li .right-box .birth-box ul li input[type=text]::-moz-placeholder {
+  text-align: center;
+  color: #aaa;
+}
+main #formSection .container .content #memberForm > ul > li .right-box .birth-box ul li input[type=text]:-ms-input-placeholder {
+  text-align: center;
+  color: #aaa;
+}
+main #formSection .container .content #memberForm > ul > li .right-box .birth-box ul li input[type=text]::placeholder {
+  text-align: center;
+  color: #aaa;
+}
+main #formSection .container .content #memberForm > ul > li .right-box .birth-box ul li i {
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #aaa;
+}
+main #formSection .container .content #memberForm > ul > li .right-box.check-box {
+  padding: 0;
+}
+main #formSection .container .content #memberForm > ul > li .right-box.check-box > div {
+  padding: 10px 0;
+}
+main #formSection .container .content #memberForm > ul > li .right-box.check-box > div label {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+main #formSection .container .content #memberForm > ul > li .right-box.check-box > div label input[type=checkbox] {
+  width: 24px;
+  height: 24px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: url(../img/check_off.svg) no-repeat 50% 50%;
+  border-radius: 50%;
+  padding: 0;
+  background-size: 24px 24px;
+  transition: none;
+  margin: 0 8px 0 0;
+}
+main #formSection .container .content #memberForm > ul > li .right-box.check-box > div label input[type=checkbox]:checked {
+  background-image: url(../img/check_on.svg);
+}
+main #formSection .container .content #memberForm > ul > li .right-box.check-box > div label input[type=checkbox]:focus {
+  outline: 0;
+}
+main #formSection .container .content #memberForm > ul > li .right-box.check-box > div p {
+  padding: 5px 0 5px 36px;
+  font-size: 12px;
+  letter-spacing: -1px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+main #formSection .container .content #memberForm > ul > li .right-box.check-box > div.sns-email-box div {
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}
+main #formSection .container .content #memberForm > ul > li .right-box.check-box > div.sns-email-box div label {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+main #formSection .container .content #memberForm > ul > li .right-box.check-box > div.sns-email-box p {
+  margin: 0 0 0 60px;
+  padding: 0 0 0 12px;
+  color: #5f0080;
+  background: url(../img/ico_sub_dot.svg) no-repeat 0 50%;
+}
+main #formSection .container .content #memberForm > ul > li hr {
+  background: #333;
+  width: 100%;
+  height: 1px;
+  border: 0;
+}
+main #formSection .container .content #memberForm > ul > li hr.end-line {
+  background-color: #ddd;
+}
+main #formSection .container .content #memberForm > ul > li button[type=submit] {
+  width: 240px;
+  height: 56px;
+  background: #5f0080;
+  color: #fff;
+  font-size: 14px;
+  border: 0;
+  border-radius: 3px;
+  font-weight: 600;
+  margin: 0 auto;
+  font-family: "Noto Sans KR";
+  cursor: pointer;
+}
